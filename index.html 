@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh Attipoe | My Cloud Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">MyPortfolio</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Hello, I'm Josh 👋</h1>
+        <p>A beginner web developer learning cloud computing and GitHub Pages deployment.</p>
+        <a href="#about" class="btn">Learn More</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a student exploring web development and cloud computing.
+            I enjoy building simple websites and learning how the internet works.
+        </p>
+
+        <h3>My Hobbies</h3>
+        <ul>
+            <li>Coding 💻</li>
+            <li>Football ⚽</li>
+            <li>Listening to music 🎵</li>
+            <li>Gaming 🎮</li>
+        </ul>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section dark">
+        <h2>My Skills</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Building structured web pages.</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Designing beautiful and responsive layouts.</p>
+            </div>
+
+            <div class="card">
+                <h3>GitHub Pages</h3>
+                <p>Hosting websites for free on the cloud.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email me at:</p>
+        <a href="mailto:joshattipoe@example.com" class="email">joshattipoe@example.com</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Josh Attipoe | GitHub Pages Project</p>
+    </footer>
+
+</body>
+</html>
